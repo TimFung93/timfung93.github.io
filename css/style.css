@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+nav {
+    background-color: #F05F40;
+    color: #fff;
+
+}
+.abouth {
+    text-align: center;
+}
+
+#aboutp {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
+#profilepic {
+    height: 60px;
+    width: 60px;
+}
+
+.overflow {
+	overflow-y: scroll;
+	height: 500px;
+}
+span {
+    color: #f0b740;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.home {
+	height: 400px;
+}
+
+.about {
+    margin-top: 60px;
+	height: 340px;
+}
+
+.skillsdiv {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.skills li{
+    display:inline-block;
+    font-size: 1.25em;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.skills li:hover{
+    color: #f0b740;
+    transition: color 0.15s linear
+}
+
+.projects {
+	height: 400px;
+	width: 100%;
+}
+
+.contact {
+	height: 600px;
+}
+
+.banner {
+	height: 50px;
+	width:100%;
+	background-color: black;
+	margin-bottom: 55px; 
+}
+
+
+#output {
+	text-transform: uppercase;
+}
+
+.main {
+	text-transform: uppercase;
+}
+
+#latest {
+    height: 100%;
+    width: 100%;
+}
+
+#lateh {
+    margin-top: -53px;
+}
+
+
+hr.primary {
+
+  border-width: 3px;
+  max-width: 50px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  border:0;
+  border-top:4px solid  #F05F40;
+}   
+
+hr.about-hr {
+	 padding: 0;
+    border: none;
+    border-top: medium double black;
+    color: black;
+    text-align: center;
+}
+
+
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #f0b740;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+
+
+
+
+
